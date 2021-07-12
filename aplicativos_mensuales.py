@@ -46,8 +46,8 @@ class Aplicativos:
     def procesar_siager(self) -> bool:
         abs_fname_p: str = os.path.join(self.txt_in, self.filename_siager_p + '.txt')
         abs_fout_p: str = os.path.join(self.txt_out, f"Registros percepciones SIAGER {self.mes:0>2}{self.anio}" + '.txt')
-        abs_fname_r: str = os.path.join(self.txt_in, self.filename_siager_r + '.txt')
-        abs_fout_r: str = os.path.join(self.txt_out, f"Registros retenciones SIAGER {self.mes:0>2}{self.anio}" + '.txt')
+        if not abs_fout_p:
+            pass
         print(f"Procesando {abs_fname_p}")
         with open(abs_fname_p, 'r', encoding='utf-8') as f_p, open(abs_fout_p, 'w', encoding='utf-8') as f_out_p:
             importes = []
@@ -63,6 +63,10 @@ class Aplicativos:
 
             f_p.close()
             f_out_p.close()
+        abs_fname_r: str = os.path.join(self.txt_in, self.filename_siager_r + '.txt')
+        abs_fout_r: str = os.path.join(self.txt_out, f"Registros retenciones SIAGER {self.mes:0>2}{self.anio}" + '.txt')
+        if not abs_fout_r:
+            pass
         with open(abs_fname_r, 'r', encoding='utf-8') as f_r, open(abs_fout_r, 'w', encoding='utf-8') as f_out_r:
             importes = []
             for linea in f_r:
