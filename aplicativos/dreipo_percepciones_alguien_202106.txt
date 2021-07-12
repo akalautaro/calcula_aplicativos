@@ -1,0 +1,9 @@
+'numero_habilitacion';'cuit';'agente';'periodo';'tipo_declaracion';'operaciones_excluidas'
+'ALGO';***********;'ALGUIEN';'06/2021';'percepcion';0
+
+'cuit';'contribuyente';'comprobante_numero';'comprobante_tipo';'comprobante_fecha_emision';'importe_operacion';'alicuota';'importe_a_depositar'
+**********;'ALGUIEN';715;'ALGO';'10/06/2021';1306.38;8;24.51
+**********;'ALGUIEN';716;'ALGO';'10/06/2021';3444.50;8;35.56
+**********;'ALGUIEN';717;'ALGO';'10/06/2021';56429.25;8;514.34
+**********;'ALGUIEN';718;'ALGO';'10/06/2021';2227.75;8;18.22
+**********;'ALGUIEN';719;'ALGO';'10/06/2021';13018.38;8;241.47

@@ -1,0 +1,9 @@
+'numero_habilitacion';'cuit';'agente';'periodo';'tipo_declaracion';'operaciones_excluidas'
+'Algo';***********;'Algo';'06/2021';'retencion';0
+
+'cuit';'contribuyente';'comprobante_numero';'comprobante_tipo';'comprobante_fecha_emision';'importe_operacion';'alicuota';'importe_a_depositar'
+***********;'ALGUIEN';0001;'CONSTANCIA';'10/06/2021';295.14;7;34.66
+***********;'ALGUIEN';0002;'CONSTANCIA';'10/06/2021';4000.00;7;210.00
+***********;'ALGUIEN';0003;'CONSTANCIA';'10/06/2021';3760.00;7;473.20
+***********;'ALGUIEN';0004;'CONSTANCIA';'10/06/2021';3650.29;7;325.52
+***********;'ALGUIEN';0005;'CONSTANCIA';'10/06/2021';5808.71;7;266.61
