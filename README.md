@@ -1,7 +1,7 @@
 # calcula_aplicativos
 Scripts para calcular importes y número de registros de percepciones y retenciones de distintos aplicativos (ARBA, DREI, SIAGER, SICORE, SIRCAR).
 
-En el caso de -[aplicativos_quincenales](https://github.com/akalautaro/calcula_aplicativos/blob/main/aplicativos_quincenales.py)_ los parámetros que hay que pasarle son:
+En el caso de _[aplicativos_quincenales](https://github.com/akalautaro/calcula_aplicativos/blob/main/aplicativos_quincenales.py)_ los parámetros que hay que pasarle son:
 * --mes
 * --quincena
 * --loter (para retenciones ARBA)
